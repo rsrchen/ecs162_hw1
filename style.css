@@ -1,0 +1,51 @@
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #87d8ec;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#team_name {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#profiles {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.profile {
+  flex-grow: 1;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile > * {
+  max-width: 300px;
+  align-items: center;
+}
+
+.portrait {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile_description {
+  font-size: medium;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 5%;  
+}
