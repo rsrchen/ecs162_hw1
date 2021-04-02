@@ -14,6 +14,8 @@ body {
   justify-content: center;
   margin-bottom: 5%;
   margin-top: 5%;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
 }
 
 #profiles {
@@ -22,6 +24,7 @@ body {
   margin-inline: 10%;
   align-items: start;
   justify-items: end;
+  font-family: Verdana, sans-serif;
 }
 
 .profile {
