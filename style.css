@@ -19,25 +19,21 @@ body {
 #profiles {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  margin-inline: 10%;
+  align-items: start;
+  justify-items: end;
 }
 
 .profile {
   flex-grow: 1;
-  margin: 20px;
-
+  margin: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.profile > * {
-  max-width: 300px;
   align-items: center;
 }
 
 .portrait {
+  /* Responsive resizing of images here? */
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -47,5 +43,6 @@ body {
   font-size: medium;
   display: flex;
   flex-flow: column wrap;
+  align-items: center;
   margin-top: 5%;  
 }
